@@ -1,0 +1,184 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    outline: none;
+}
+body
+{
+    margin: 0;
+    color: #555;
+    background-color: transparent;
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+ul
+{
+    padding: 0;
+}
+li
+{
+    float: left;
+    list-style: none;
+}
+
+.row
+{
+    float: left;
+    width: 100%;
+}
+.box_center
+{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+.green_button:hover
+{
+    background-color: #048A70 !important;
+}
+
+.comment_title
+{
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin: 0px 0px 30px;
+    font-size: 24px;
+    line-height: 30px;
+}
+.comment_form
+{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 185px;
+    border-bottom: 1px #e7e7e7 solid;
+}
+.comment_form .user_info
+{
+    float: left;
+    width: 50px;
+    margin: 0px 20px 0px 0px;
+}
+.comment_form .user_info .user_avt
+{
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin: 0px 0px 10px;
+    border-radius: 50%;
+    background-color: #1ba085;
+    cursor: pointer;
+}
+.comment_form .user_info .user_name
+{
+    float: left;
+    width: 100%;
+    height: 55px;
+    font-size: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: #000;
+    overflow: hidden;
+}
+.comment_form textarea
+{
+    min-width: calc(100% - 70px);
+    max-width: calc(100% - 70px);
+    min-height: 120px;
+    max-height: 120px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px #1ba085 solid;
+    border-radius: 5px;
+}
+.comment_form input[type = 'submit']
+{
+    float: right;
+    width: 125px;
+    height: 25px;
+    margin: 10px 0px 0px;
+    padding: 5px 0px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #1ba085;
+    cursor: pointer;
+}
+.other_comments
+{
+    float: left;
+    width: 100%;
+    height: 335px;
+    max-height: 335px;
+    margin: 10px 0px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+/* other_comments: Scrollbar Setting */
+.other_comments::-webkit-scrollbar
+{
+    width: 5px;
+    height: 50px;
+    background-color: transparent;
+}
+.other_comments::-webkit-scrollbar-track
+{
+    background: transparent;
+}
+.other_comments::-webkit-scrollbar-thumb
+{
+    border-radius: 2.5px;
+    background: #eee;
+}
+.other_comments::-webkit-scrollbar-thumb:hover
+{
+    background: #ddd;
+}
+.other_comments .person_comment
+{
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px 10px;
+    padding: 10px;
+}
+.other_comments .person_comment .user_avt
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 50%;
+    background-color: #1ba085;
+    cursor: pointer;
+}
+.other_comments .person_comment .user_info
+{
+    display: inline-block;
+    height: 18.5px;
+    margin: 0px 0px 5px;
+    font-size: 14px;
+}
+.other_comments .person_comment .user_info span
+{
+    font-style: italic;
+    color: #999;
+}
+.other_comments .person_comment .comment_content
+{
+    float: left;
+    width: calc(100% - 60px);
+    margin: 0;
+}

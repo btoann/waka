@@ -1,0 +1,209 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    outline: none;
+}
+body
+{
+    margin: 0;
+    color: #555;
+    background-color: #f8f8f8;
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.row
+{
+    float: left;
+    width: 100%;
+}
+.box_center
+{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+.green_content
+{
+    color: #048A70;
+}
+.yellow_content
+{
+    color: rgb(255, 217, 4);
+}
+.green_button:hover
+{
+    background-color: #048A70 !important;
+}
+.box_shadow_1
+{
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.box_shadow_2
+{
+    box-shadow: 0 0 10.5px 1.5px rgba(0, 0, 0, 0.2);
+}
+
+.login_center
+{
+    width: 540px;
+    margin: 0px auto;
+}
+.login_box
+{
+    float: left;
+    min-height: 120px;
+    margin: 135px 0px 0px;
+    border-radius: 5px;
+}
+.signin_box
+{
+    margin: 65px auto !important;
+    min-height: 610px !important;
+}
+.login_form
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+}
+.login_form .header
+{
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    font-size: 32px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #1ba085;
+}
+.login_form table
+{
+    width: 450px;
+    margin: 0 auto 20px;
+}
+.login_form table .input_area
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    margin: 7.5px 0px;
+    position: relative;
+}
+.login_form table .input_area .input_placeholder
+{
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #999;
+    transition: 0.2s all ease;
+    position: absolute;
+    top: 55%;
+    left: 16px;
+    z-index: 0;
+}
+.login_form table .input_area input.input_field
+{
+    width: 100%;
+    height: 51px;
+    padding: 10px 15px 0px;
+    border: 1px solid #dee2e6;
+    border-radius: 2.5px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 1;
+}
+.login_form table .input_area input.input_field:focus
+{
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.login_form table .input_area .input_field_focus
+{
+    top: 12.5px !important;
+    font-size: 10px !important;
+    z-index: 2 !important;
+    pointer-events: none;
+}
+.login_form .forgot_pass
+{
+    float: right;
+    margin: 5px 0px;
+    font-size: 12px;
+    text-align: right;
+    color: #1ba085;
+}
+.login_form .forgot_pass:hover
+{
+    text-decoration: underline;
+}
+.login_form .submit_button
+{
+    display: inline-block;
+    width: fit-content;
+    height: 35px;
+    padding: 7.5px 20px;
+    border: none;
+    border-radius: 2.5px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff !important;
+    background-color: #1ba085;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.login_form .different_join
+{
+    height: 15px;
+    margin: 0px 0px 10px;
+    line-height: 10px;
+}
+.login_form .different_join a:hover
+{
+    text-decoration: underline;
+}
+p.login_content
+{
+    display: inline-block;
+    height: 35px;
+    padding: 5px 0px;
+    line-height: 1;
+}
+p.login_content img
+{
+    height: 100%;
+}
+
+.notify_box
+{
+    float: left;
+    width: 540px;
+    min-height: 120px;
+    margin: 150px 0px 50px;
+    border-radius: 5px;
+}
+.notify_box > *
+{
+    float: left;
+}
+
+#warning
+{
+    width: 100%;
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+    color: red;
+}

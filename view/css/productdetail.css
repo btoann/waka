@@ -1,0 +1,244 @@
+.product_detail
+{
+    float: left;
+    width: 100%;
+    min-height: 600px;
+    padding: 20px 0px 5px;
+}
+.pd_col_left
+{
+    float: left;
+    width: 820px;
+    min-height: 565px;
+    padding: 15px;
+    margin: 0px 10px 10px 0px;
+    background-color: #fff;
+}
+.product_left_view
+{
+    float: left;
+    width: 240px;
+    min-height: 350px;
+    margin: 0px 45px 0px 0px;
+}
+.product_left_view img
+{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.product_left_view .vote_product
+{
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin: 20px 0px 0px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+}
+.product_left_view .vote_product a.do_rate_icon
+{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin: 0 calc(50% - 17.5px);
+    background-image: url(../image/rate-btn.png);
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product_left_view .vote_product a.do_rate_icon:hover
+{
+    background-image: url(../image/rate-icon.png);
+}
+.product_left_view .vote_product a.do_rate_text
+{
+    margin: 0 auto;
+}
+.product_left_view .vote_product p.product_votes
+{
+    float: left;
+    width: 100%;
+    margin: 10px 0px 0px;
+}
+.product_right_view
+{
+    float: left;
+    width: 505px;
+    min-height: 350px;
+}
+.product_right_view h1.product_name
+{
+    float: left;
+    width: 100%;
+    margin: -4px 0px 3px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+}
+.product_right_view p
+{
+    float: left;
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #000;
+}
+.product_right_view p a
+{
+    color: #888;
+}
+.product_right_view p a:hover
+{
+    color: #1ba085;
+}
+.product_right_view h2
+{
+    float: left;
+    margin: 10px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+.product_right_view .read_now
+{
+    float: left;
+    width: 100%;
+    height: 55px;
+    padding: 15px 0px;
+}
+.product_right_view .read_now a
+{
+    float: left;
+    width: 125px;
+    height: 25px;
+    padding: 5px 0px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #1ba085;
+}
+.product_right_view .read_now a.add_to_card
+{
+    width: 175px !important;
+    margin: 0px 0px 0px 15px;
+    background-color: #d4c818 !important;
+}
+.product_right_view p.product_description
+{
+    height: fit-content !important;
+    line-height: 1.65 !important;
+    margin-bottom: 20px !important;
+}
+.comment_view
+{
+    float: left;
+    width: 100%;
+    min-height: 20px;
+    margin: 50px 0px 0px;
+    padding: 15px;
+    border-top: 1px #e7e7e7 solid;
+}
+.comment_view iframe
+{
+    float: left;
+    width: 100%;
+    height: 600px;
+}
+.comment_view .press_to_login
+{
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.comment_view .press_to_login:hover
+{
+    color: #1ba085;
+}
+
+
+.pd_col_right
+{
+    float: left;
+    width: 270px;
+    min-height: 565px;
+    padding: 15px;
+    margin: 0px;
+
+    background-color: #fff;
+}
+.pd_col_right h1.related_pl_header
+{
+    float: left;
+    width: 100%;
+    margin: 3px 0px -4px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
+    color: #000;
+}
+.pd_col_right .related_pl
+{
+    float: left;
+    width: 100%;
+    margin: 25px 0px 0px;
+}
+.pd_col_right .related_pl a.related_product
+{
+    display: block;
+    width: 150px;
+    height: 220px;
+    margin: 0px auto 30px;
+    position: relative;
+}
+.pd_col_right .related_pl a.related_product::before
+{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url(../image/book-icon.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.2s ease-in-out;
+}
+.pd_col_right .related_pl a.related_product p
+{
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    font-size: 11px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    background-color: #1ba085;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+}
+.pd_col_right .related_pl a.related_product:hover::before,
+.pd_col_right .related_pl a.related_product:hover p
+{
+    opacity: 1;
+    transform: scale(1);
+}
+.pd_col_right .related_pl a.related_product img
+{
+    float: left;
+    width: 100%;
+    height: auto;
+}
